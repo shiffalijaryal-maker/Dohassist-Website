@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DohAssist | The Operating System for American Small Business</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./components/layout.js" defer></script>
+    <script src="./components/animations.js" defer></script>
+</head>
+
+<body>
+    <doh-header></doh-header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container">
+            <div class="hero-content">
+                <h1 class="hero-title">The Operating System for American Small Business</h1>
+                <p class="hero-subtitle" style="line-height: 1.8;">
+                    Hardware to <span style="color: #007AFF; font-weight: 700;">Protect</span>.
+                    Software to <span style="color: #A259FF; font-weight: 700;">Manage</span>.
+                    People to <span style="color: #FF8A65; font-weight: 700;">Execute</span>.<br>
+                    <span
+                        style="display: block; margin-top: 0.8rem; font-size: 1.25rem; font-weight: 600; color: var(--text-color);">
+                        Stop hiring. <span
+                            style="background: var(--gradient-blue-green); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 800;">Start
+                            growing.</span>
+                    </span>
+                </p>
+                <div class="btn-group">
+                    <a href="/shield/" class="btn-primary neon-glow">Start Your Daily Audit</a>
+                    <a href="#how" class="btn-secondary">See How It Works</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Bar -->
+        <section class="trust-bar">
+            <div class="container">
+                <div class="stats-glow-wrapper"
+                    style="position: relative; max-width: 1000px; margin: 0 auto; margin-bottom: 3rem;">
+                    <!-- Neon Background Glow Element -->
+                    <div
+                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; background: radial-gradient(circle, rgba(0, 122, 255, 0.4) 0%, rgba(52, 199, 89, 0.2) 50%, transparent 80%); filter: blur(60px); z-index: 0; pointer-events: none;">
+                    </div>
+
+                    <div class="trust-stats" style="margin-bottom: 0;">
+                        <div class="stat">
+                            <span class="stat-number animate-number" data-target="750" data-prefix="$"
+                                data-suffix="k">0</span>
+                            <span class="stat-label">Reconciled Daily</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number animate-number" data-target="170" data-suffix="+">0</span>
+                            <span class="stat-label">Locations</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number animate-number" data-target="125000" data-suffix="+">0</span>
+                            <span class="stat-label">Incidents Caught</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trust-logos">
+                    <span>7-ELEVEN</span>
+                    <span>SHELL</span>
+                    <span>CHEVRON</span>
+                    <span>MARRIOTT</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- The "Trifecta" Section -->
+        <section class="section container">
+            <h2 class="section-title">The Trifecta of Growth</h2>
+            <div class="grid-3">
+                <a href="/shield/" class="glass-card interactive-protect"
+                    style="display: block; text-decoration: none; color: inherit; background: #DDF0FF; border: 1px solid #007AFF;">
+                    <h3 class="card-title" style="display: flex; align-items: center; gap: 8px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#007AFF" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span style="color: #007AFF; font-weight: bold;">PROTECT:</span> DohShield
+                    </h3>
+                    <p class="card-subtitle">The Fractional Loss Prevention Department.</p>
+                    <p style="color: var(--text-muted);">Stop Theft. We provide AI-Augmented Daily Auditing of your
+                        locations to ensure zero shrinkage.</p>
+                </a>
+                <a href="/ops/" class="glass-card interactive-manage"
+                    style="display: block; text-decoration: none; color: inherit; background: #F0E6FF; border: 1px solid #A259FF;">
+                    <h3 class="card-title" style="display: flex; align-items: center; gap: 8px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"
+                                stroke="#A259FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span style="color: #A259FF; font-weight: bold;">MANAGE:</span> DohOps
+                    </h3>
+                    <p class="card-subtitle">The Gamified Workforce Platform.</p>
+                    <p style="color: var(--text-muted);">Stop Turnover. The only scheduling app that uses gamification
+                        to make employees want to show up.</p>
+                </a>
+                <a href="#roi" class="glass-card interactive-execute"
+                    style="display: block; text-decoration: none; color: inherit; background: #FFEAE6; border: 1px solid #FF8A65;">
+                    <h3 class="card-title" style="display: flex; align-items: center; gap: 8px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zm0 22l-10-5V9l10 5 10-5v10l-10 5z" stroke="#FF8A65"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span style="color: #FF8A65; font-weight: bold;">EXECUTE:</span> DohAssist
+                    </h3>
+                    <p class="card-subtitle">The Virtual Back Office.</p>
+                    <p style="color: var(--text-muted);">Stop Paperwork. Dedicated teams processing your reconciliation,
+                        estimates, and AR from $299/mo.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Choose Your Path Grid -->
+        <section class="section" id="roi" style="background: #EFF6FF;">
+            <div class="container">
+                <h2 class="section-title">Specialized Solutions for Your Industry</h2>
+                <div class="grid-3">
+                    <a href="/shield/" class="glass-card interactive"
+                        style="background: #E0E7FF; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <h3 class="card-title" style="display: flex; align-items: center; gap: 8px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0"
+                                    stroke="#3730A3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            Retail & Franchise
+                        </h3>
+                        <p class="card-subtitle">C-Stores, Gas Stations, QSR</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">From $299/mo. Reconcile lottery, fuel &
+                            cash
+                            daily while catching sweet-hearting.</p>
+                    </a>
+                    <a href="/services/estimating.html" class="glass-card interactive"
+                        style="background: #CCFBF1; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <h3 class="card-title" style="display: flex; align-items: center; gap: 8px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 13.91V21h20v-7L12 3z" stroke="#0F766E" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            Construction & Field
+                        </h3>
+                        <p class="card-subtitle">Roofers, Restoration, HVAC</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">From $699/mo. Overnight Xactimate
+                            estimating
+                            and aggressive 0% commission A/R collections.</p>
+                    </a>
+                    <a href="https://dohrx.com" target="_blank" class="glass-card interactive"
+                        style="background: #DBEAFE; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+                        <h3 class="card-title" style="display: flex; align-items: center; gap: 8px;">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#1D4ED8" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            Medical & Dental
+                        </h3>
+                        <p class="card-subtitle">Chiropractors, Dentists, Clinics</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem;">The virtual front desk. We verify
+                            insurance
+                            before the patient arrives so you get fully paid.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <doh-footer></doh-footer>
+</body>
+
+</html>

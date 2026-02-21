@@ -1,0 +1,28 @@
+{
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "(www\\.)?dohshield\\.com"
+                }
+            ],
+            "destination": "https://www.dohassist.com/shield/index.html",
+            "permanent": true
+        },
+        {
+            "source": "/(.*)",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "(www\\.)?dohops\\.com"
+                }
+            ],
+            "destination": "https://www.dohassist.com/ops/index.html",
+            "permanent": true
+        }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+}
